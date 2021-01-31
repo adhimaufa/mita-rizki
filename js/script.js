@@ -65,7 +65,7 @@ var x = setInterval(function() {
 }, 1000);
 
 
-var firebaseConfig = {
+var firebaseConfig1 = {
     apiKey: "AIzaSyAcRO57X8UNRAZ0rLhGjYk2ttXX95VtI84",
     authDomain: "comments-7198f.firebaseapp.com",
     databaseURL: "https://comments-7198f-default-rtdb.firebaseio.com",
