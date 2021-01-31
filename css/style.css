@@ -522,14 +522,57 @@ img{
 
 }
 
+.prokes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: max-content;
+  flex-direction: column;
+  background: url("../asset/image/sampul2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 100px ;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.prokes h2{
+  font-family: 'christ' !important;
+  font-size: 50px !important;
+  color: #466089;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.prokes .pro1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prokes .pro1 img{
+  width: 200px;
+  margin: 50px;
+}
+
+.prokes .pro2 img{
+  width: 500px;
+  /* margin: 50px; */
+}
+
 .contact-us{
   position: relative;
-  padding: 90px 250px 90px 250px;
+  padding: 30px 250px 30px 250px;
   font-size: 18px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 .box h2{
@@ -706,6 +749,242 @@ img{
   text-decoration: none;
 }
 
+@media(max-width: 768px){
+  
+  #popup.active{
+      top: 0%;
+      visibility: visible;
+      opacity: 1;
+      transition: 1s;
+  }
+
+  .title{
+    padding-top: 100px;
+    text-align: center;  
+  }
+
+  .title a{
+      position: relative;
+      padding: 3px 25px;
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: black;
+      background: rgba(249, 211, 145, 0.55);
+      font-weight: lighter;
+      font-size: 18px;
+      border-radius: 20px;
+   }
+
+   .title h3{
+    font-size: 16px;
+  }
+  
+  .title h4{
+    font-size: 25px;
+  }
+
+  title a:hover{
+      background: rgb(238, 238, 238);
+  }
+
+  .content-isra img{
+    width: 80px;
+  }
+
+  .content-isra p{
+    padding: 20px 30px;
+  
+  }
+
+  .content-isra h3 b,
+  .content-isra p{
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .bride img,
+  .groom, img{
+    width: 250px;
+  }
+
+  .text-block1 p,
+  .text-block p{
+    font-size: 12px;
+  }
+
+  .playfair{
+    font-size: 20px !important;
+  }
+  
+  .salsa{
+    font-size: 18px !important;
+  }
+
+  .font-bromello{
+    font-size: 60px !important;
+  }
+
+  .count-down p{
+    font-size: 32px;
+  }
+
+  .separator{
+    padding: 0 12px;
+  }
+
+  .font-smaller{
+    font-size: 12px;
+  }
+
+  #habis.aktif{
+    font-size: 15px;
+  }
+  
+  .date{
+    margin-top: 10px;
+  }
+
+  .date .save-date p{
+    font-size: 32px !important;
+  }
+
+  .waktu .resepsi span,
+  .waktu .akad span{
+    font-size: 13px;
+  }
+
+  .waktu .resepsi p,
+  .waktu .akad p{
+    font-size: 10px !important;
+  }
+
+  .waktu .sabtu p{
+    font-size: 20px !important;
+    line-height: 30px;
+  }
+
+  .kediaman{
+    padding: 20px 60px;
+  }
+
+  .kediaman p{
+    font-size: 13px !important;
+    line-height: 20px;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .text-block2 a{
+    font-size: 20px ;
+    border-radius: 15px;
+  }
+
+  .sorry p{
+    font-size: 13px !important;
+    line-height: 20px;
+    padding: 0 10px;
+  }
+
+  .sorry1 p{
+    font-size: 13px !important;
+    padding: 20px 10px 0 10px;
+    line-height: 20px;
+  }
+  
+  .live-stream p{
+    background-color: rgba(70, 96, 137,.5);
+    border-radius: 15px;
+    padding: 5px 15px !important;
+    font-family: 'christmas'!important;
+    font-size: 20px !important;
+    color: black;
+    margin: 10px 10px 0 0 ;
+  }
+  
+  .icon-sosmed a img{
+    width: 70px;
+    margin: 10px 28px 0 0;
+  }
+
+  .prokes{
+    margin-top: 10px ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .prokes h2{
+    font-size: 35px !important;
+  }
+  
+  .prokes .pro1 img{
+    width: 100px;
+    margin: 30px;
+  }
+
+  .prokes .pro2 img{
+    width: 250px;
+    /* margin: 30px; */
+  }
+
+  .contact-us{
+    padding: 30px;
+  }
+
+  .box h2{
+      font-size: 30px;
+  }
+
+  .box p{
+      font-size: 12px;
+  }
+
+  .box button{
+      font-size: 15px;
+  }
+
+  .contact-us form input, .contact-us form #message{
+      width: 100%;
+  }
+
+  #name::-webkit-input-placeholder,
+  #message::-webkit-input-placeholder{
+      font-size: 13px;
+  }
+
+  .thankyou h2{
+      font-size: 15px;
+  }
+
+  .thankyou h5{
+      font-size: 40px;
+  }
+
+  body{
+      overflow-x: hidden;
+  }
+
+  #task_data{
+      padding-left: 10px;
+  }
+
+  #task_title{
+      font-size: 15px;
+  }
+
+  #task_date{
+      font-size: 14px;
+  }
+
+  .task_container:hover{
+    background-color: transparent;
+  }
+
+  .footer{
+      padding: 50px 0 40px 0;
+  }
+}
+
 @media(max-width: 576px){
  
   #popup{
@@ -876,6 +1155,21 @@ img{
   .icon-sosmed a img{
     width: 70px;
     margin: 10px 28px 0 0;
+  }
+
+  .prokes{
+    margin-top: 10px ;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .prokes h2{
+    font-size: 35px !important;
+  }
+  
+  .prokes .pro1 img{
+    width: 100px;
+    margin: 30px;
   }
 
   .contact-us{
