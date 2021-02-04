@@ -227,7 +227,7 @@ img{
   float: right;
   margin-top: 0px;
   position: relative;
-  width: 100vw;
+  width: 100vw!important;
   text-align: right;
 }
 
@@ -243,6 +243,7 @@ img{
   top: 30px;
   right: 10px;
   text-align: right;
+  /* background-color: aquamarine; */
 }
 
 .text-block1 p,
