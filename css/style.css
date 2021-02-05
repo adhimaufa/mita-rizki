@@ -67,20 +67,24 @@ body{
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 1px #466089; 
-  border-radius: 10px;
-}
-  
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #466089; 
-  border-radius: 10px;
-}
+    box-shadow: inset 0 0 1px white; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white; 
+    border-radius: 10px;
+  }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #a8a8a8; 
-}
+  ::-webkit-scrollbar-track-piece{
+    background: var(--mudaCoklat);   
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: white; 
+  }
 
 #popup{
   color: black;
@@ -243,7 +247,6 @@ img{
   top: 30px;
   right: 10px;
   text-align: right;
-  /* background-color: aquamarine; */
 }
 
 .text-block1 p,
@@ -695,6 +698,7 @@ img{
   overflow: auto;
   overflow-x: hidden;
   background: rgba(70, 96, 137,.1);
+  padding-right: 10px;
 }
 
 .task_container{
